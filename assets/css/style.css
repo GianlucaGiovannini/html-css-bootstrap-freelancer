@@ -1,7 +1,7 @@
 /* common */
 
 :root {
-    --color-header-hr-star-fotter-bottom: #2C3E50;
+    --color-header-hr-star-footer-bottom: #2C3E50;
     --color-bg-light-green: #1ABC9C;
     --color-title-no-bg: #333333;
     --color-bg-footer-top: #3A546D;
@@ -9,25 +9,31 @@
 }
 
 header {
-    background-color: var(--color-header-hr-star-fotter-bottom);
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
 
-.debug header [class^="row"] {
+
+/* #region debug */
+
+
+/* header */
+
+.debug header .row {
     height: 100px;
 }
 
-.debug .jumbo_tron [class^="col"] {
-    height: 125px;
-}
 
-.bg_light_green {
-    background-color: var(--color-bg-light-green);
-}
+/* jumbotron */
+
+.debug .jumbo_tron div {}
+
+
+/* portfolio */
 
 .debug #portfolio .bg_star {
     height: 5px;
     width: 150px;
-    background-color: var(--color-header-hr-star-fotter-bottom);
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
 
 .debug #portfolio [class^="col"] {
@@ -35,6 +41,9 @@ header {
     background-color: rgb(151, 47, 47);
     border-radius: 10px;
 }
+
+
+/* about */
 
 .debug #about .bg_star-white {
     height: 5px;
@@ -46,31 +55,48 @@ header {
     height: 125px;
 }
 
+
+/* contact */
+
 .debug #contact .bg_star {
     height: 5px;
     width: 150px;
-    background-color: var(--color-header-hr-star-fotter-bottom);
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
 
 .debug #contact [class^="col"] {
     height: 50px;
 }
 
+
+/* footer */
+
 .debug #site_footer [class^="col"] {
     height: 100px;
 }
+
+
+/* #endregion debug */
+
+
+/* #region utility */
+
+.pb_7 {
+    padding-bottom: 7rem;
+}
+
+.bg_light_green {
+    background-color: var(--color-bg-light-green);
+}
+
+
+/* footer 
+*******************/
 
 .footer_top {
     background-color: var(--color-bg-footer-top);
 }
 
 .footer_bottom {
-    background-color: var(--color-header-hr-star-fotter-bottom);
-}
-
-
-/* utility */
-
-.pb_7 {
-    padding-bottom: 7rem;
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
