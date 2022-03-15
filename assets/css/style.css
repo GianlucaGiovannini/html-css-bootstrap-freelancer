@@ -56,6 +56,18 @@ header {
     height: 50px;
 }
 
+.debug #site_footer [class^="col"] {
+    height: 100px;
+}
+
+.footer_top {
+    background-color: var(--color-bg-footer-top);
+}
+
+.footer_bottom {
+    background-color: var(--color-header-hr-star-fotter-bottom);
+}
+
 
 /* utility */
 
