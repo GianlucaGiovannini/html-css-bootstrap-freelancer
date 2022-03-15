@@ -1,0 +1,17 @@
+/* common */
+
+:root {
+    --color-header-hr-star-fotter-bottom: #2C3E50;
+    --color-bg-light-green: #1ABC9C;
+    --color-title-no-bg: #333333;
+    --color-bg-footer-top: #3A546D;
+    --color-border-bottom: #CCCCCC;
+}
+
+header {
+    background-color: var(--color-header-hr-star-fotter-bottom);
+}
+
+.debug header [class^="row"] {
+    height: 100px;
+}
