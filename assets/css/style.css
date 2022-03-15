@@ -25,7 +25,9 @@ header {
 
 /* jumbotron */
 
-.debug .jumbo_tron div {}
+.debug .jumbo_tron [class^="jumbo"] {
+    padding: 3.5rem;
+}
 
 
 /* portfolio */
@@ -36,7 +38,7 @@ header {
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
-.debug #portfolio [class^="col"] {
+.debug #portfolio [class^="card"] {
     height: 400px;
     background-color: rgb(151, 47, 47);
     border-radius: 10px;
