@@ -15,3 +15,50 @@ header {
 .debug header [class^="row"] {
     height: 100px;
 }
+
+.debug .jumbo_tron [class^="col"] {
+    height: 125px;
+}
+
+.bg_light_green {
+    background-color: var(--color-bg-light-green);
+}
+
+.debug #portfolio .bg_star {
+    height: 5px;
+    width: 150px;
+    background-color: var(--color-header-hr-star-fotter-bottom);
+}
+
+.debug #portfolio [class^="col"] {
+    height: 400px;
+    background-color: rgb(151, 47, 47);
+    border-radius: 10px;
+}
+
+.debug #about .bg_star-white {
+    height: 5px;
+    width: 150px;
+    background-color: white;
+}
+
+.debug #about [class^="col"] {
+    height: 125px;
+}
+
+.debug #contact .bg_star {
+    height: 5px;
+    width: 150px;
+    background-color: var(--color-header-hr-star-fotter-bottom);
+}
+
+.debug #contact [class^="col"] {
+    height: 50px;
+}
+
+
+/* utility */
+
+.pb_7 {
+    padding-bottom: 7rem;
+}
