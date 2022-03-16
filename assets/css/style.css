@@ -21,10 +21,7 @@ hr {
     width: 11%;
     margin: 0 5%;
     border-radius: 10px;
-}
-
-hr:not([size]) {
-    height: 3px;
+    height: 3px !important;
 }
 
 h2 {
@@ -78,6 +75,13 @@ h2 {
     width: auto;
     height: 210px;
     transition: 1s;
+}
+
+
+/* portfolio  */
+
+#portfolio img {
+    border-radius: 15px;
 }
 
 
