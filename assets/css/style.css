@@ -58,8 +58,12 @@ h2 {
     color: var(--color-bg-light-green);
 }
 
-.b-none {
-    border: none;
+.text_star {
+    color: var(--color-header-hr-star-footer-bottom);
+}
+
+.bg_hr {
+    background-color: var(--color-header-hr-star-footer-bottom);
 }
 
 
