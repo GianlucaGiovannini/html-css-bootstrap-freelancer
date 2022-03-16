@@ -8,8 +8,23 @@
     --color-border-bottom: #CCCCCC;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 header {
     background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+hr {
+    width: 20%;
+    margin: 0 3%;
+    border-radius: 10px;
+}
+
+hr:not([size]) {
+    height: 6px;
 }
 
 
@@ -18,15 +33,18 @@ header {
 
 /* header */
 
-.debug header .row {
-    height: 100px;
-}
-
 
 /* jumbotron */
 
-.debug .jumbo_tron [class^="jumbo"] {
+
+/* .debug .jumbotron [class^="jumbo"] {
     padding: 3.5rem;
+} */
+
+.jumbo_img {
+    width: auto;
+    height: 210px;
+    transition: 1s;
 }
 
 
@@ -87,6 +105,14 @@ header {
     padding-bottom: 7rem;
 }
 
+.ms_2 {
+    margin-left: 2%;
+}
+
+.me_2 {
+    margin-right: 2%;
+}
+
 .bg_light_green {
     background-color: var(--color-bg-light-green);
 }
@@ -101,4 +127,11 @@ header {
 
 .footer_bottom {
     background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+@media screen and (min-width: 992px) {
+    .jumbo_img {
+        width: auto;
+        height: 260px;
+    }
 }
