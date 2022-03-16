@@ -86,21 +86,16 @@ h2 {
 
 #portfolio img {
     border-radius: 15px;
+    transition: .5s ease-in-out;
+}
+
+#portfolio .card img:hover {
+    transform: skewX(5deg);
+    box-shadow: 3px 5px 0px 2px var(--color-bg-light-green);
 }
 
 
-/* #endregion main */
-
-
-/* #region footer */
-
-.footer_top {
-    background-color: var(--color-bg-footer-top);
-}
-
-.footer_bottom {
-    background-color: var(--color-header-hr-star-footer-bottom);
-}
+/* contact */
 
 ::placeholder {
     color: black !important;
@@ -118,7 +113,28 @@ h2 {
     color: black !important;
 }
 
-*/
+
+/* #endregion main */
+
+
+/* #region footer */
+
+.footer_top {
+    background-color: var(--color-bg-footer-top);
+}
+
+.footer_bottom {
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+.footer_top span:hover {
+    background-color: white;
+    color: black;
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+
 /* #endregion footer */
 
 @media screen and (min-width: 768px) {
