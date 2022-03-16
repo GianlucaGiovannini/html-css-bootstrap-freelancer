@@ -1,4 +1,4 @@
-/* common */
+/* #region common */
 
 :root {
     --color-header-hr-star-footer-bottom: #2C3E50;
@@ -32,6 +32,9 @@ h2 {
 }
 
 
+/* #endregion common */
+
+
 /* #region utility */
 
 .px_09 {
@@ -62,18 +65,11 @@ h2 {
     border: none;
 }
 
-#exampleInputName,
-#exampleInputEmail1,
-#exampleInputNumber,
-#exampleFormControlTextarea1 {
-    border-bottom: 1px solid #ced4da;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
-
 
 /* #endregion utility */
+
+
+/* #region main */
 
 
 /* jumbotron */
@@ -85,11 +81,10 @@ h2 {
 }
 
 
-/* #endregion debug */
+/* #endregion main */
 
 
-/* footer 
-*******************/
+/* #region footer */
 
 .footer_top {
     background-color: var(--color-bg-footer-top);
@@ -98,6 +93,15 @@ h2 {
 .footer_bottom {
     background-color: var(--color-header-hr-star-footer-bottom);
 }
+
+input[placeholder],
+[placeholder],
+*[placeholder] {
+    color: black !important;
+}
+
+
+/* #endregion footer */
 
 @media screen and (min-width: 768px) {
     .jumbo_img {
