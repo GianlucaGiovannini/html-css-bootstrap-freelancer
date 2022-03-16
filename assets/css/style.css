@@ -102,26 +102,25 @@ h2 {
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
-
-/* ::placeholder {
+::placeholder {
     color: black !important;
     opacity: 1;
     /* Firefox */
-
-
 }
+
  :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    
     color: black !important;
 }
+
  ::-ms-input-placeholder {
     /* Microsoft Edge */
-    
     color: black !important;
 }
+
 */
 /* #endregion footer */
+
 @media screen and (min-width: 768px) {
     .jumbo_img {
         width: auto;
